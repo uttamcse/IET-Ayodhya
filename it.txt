@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    .iet{
+        background-color: aqua;
+        display: flex;
+        border: 2px solid red;
+      
+      
+
+    }
+    .cse{
+background-color: rgb(127, 207, 61);
+border: 2px solid green;
+padding: 11px;
+margin: 11px;
+ box-shadow: 4px 4px 5px 3px  rgb(87, 87, 87);
+ text-shadow: 4px 4px 5px 3px  rgb(236, 93, 105);;
+ box-shadow: -4px -4px -5px -3px  rgb(87, 87, 87);
+    }
+    h1{
+        text-shadow: 3px 4px red;
+    }
+
+</style>
+<body>
+    <div class="iet">
+       
+        <div class="cse" id="uttam">  <h1>box1</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita
+            exercitationem atque dolor provident nulla quaerat optio. Consequatur ad dolorem dolor autem esse quos, dolore
+            cumque ipsa quis iusto sunt, aperiam laborum dignissimos!</div>
+        <div class="iet">
+           
+            <div class="cse" id="vivek"> <h1>box2</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita
+                exercitationem atque dolor provident nulla quaerat optio. Consequatur ad dolorem dolor autem esse quos,
+                dolore
+                cumque ipsa quis iusto sunt, aperiam laborum dignissimos!</div>
+            <div class="iet">
+            
+                <div class="cse" id="ashish">    <h1>box3</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita
+                    exercitationem atque dolor provident nulla quaerat optio. Consequatur ad dolorem dolor autem esse quos,
+                    dolore
+                    cumque ipsa quis iusto sunt, aperiam laborum dignissimos!</div>
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    background-color: rgb(136, 255, 0);
+    height: 100px;
+    width: 200px;
+}
+.box2{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+}
+.box3{
+    background-color: rgb(0, 68, 255);
+    height: 100px;
+    width: 200px;
+}
+.box4{
+    background-color: rgb(255, 0, 242);
+    height: 100px;
+    width: 200px;
+}
+</style>
+<body>
+    <div class="box4"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
+ -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b0rder box</title>
+    <style>
+/* *{
+    border-style: solid;
+    border: 2px solid red;
+} */
+div{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    border-top-style:dashed ;
+    border-bottom-style: dotted;
+    border-left-style: groove;
+    
+}
+.cse{
+   
+    color: rgb(47, 180, 21);
+    background-color: rgb(66, 224, 132);
+border: 2px solid red;
+margin: 12px;
+padding: 30px;
+text-align: center;
+border-style: solid;
+height: 200px;
+width: 300px;
+
+}
+.ce{color: rgb(13, 29, 173), 0, 255);
+    background-color: aqua;
+    border: 2px solid rgb(236, 75, 196);
+margin: 12px; 
+padding: 30px;
+text-align: center;
+border-style:dotted;
+height: 200px;
+width: 300px;
+}
+.ece{color: rgb(187, 36, 218);
+    background-color: rgb(140, 172, 231);
+    border: 2px solid rgb(0, 255, 221);
+margin: 12px;
+padding: 30px;
+text-align: center;
+border-style: dashed;
+height: 200px;
+width: 300px;
+}
+.me{color: rgb(206, 6, 6);
+    background-color: rgb(230, 148, 233);
+    border: 2px solid rgb(238, 255, 0);
+margin: 12px;
+padding: 30px;
+text-align: center;
+border-style: dotted;
+height: 200px;
+width: 300px;
+}
+    </style>
+</head>
+
+<body>
+    <h1>this is border style</h1>
+    <div class="cse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis molestias quo illo possimus labore
+        animi in. Dolorum eligendi voluptatem aliquam eveniet!</div>
+
+    <div class="ce">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis molestias quo illo possimus labore
+            animi in. Dolorum eligendi voluptatem aliquam eveniet!</div>
+
+    <div class="ece">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis molestias quo illo possimus labore
+        animi in. Dolorum eligendi voluptatem aliquam eveniet!</div>
+
+    <div class="me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis molestias quo illo possimus labore
+        animi in. Dolorum eligendi voluptatem aliquam eveniet!</div>
+</body>
+
+</html>

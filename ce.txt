@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid auto fit &minmax in html</title>
+</head>
+<style>
+   body{
+       background-color: black;
+   }
+   .cont{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+       grid-template-columns: repeat(7,100px);
+       grid-template-rows: repeat(3,100px);
+       grid-gap: 1rem;
+       justify-content: center;/**left to right*/
+       align-content: center;/*top to bottom*/
+       justify-items: center;/*left to right*/
+      align-items: center;/*top to bottom*/
+
+   }
+   .box{
+       border: 2px solid red;
+       padding: 22px;
+       background-color: aqua;
+  
+
+   }
+ 
+
+</style>
+<body>
+    <div class="cont">
+        <div class="box">this is box 1</div>
+        <div class="box">this is box 2</div>
+        <div class="box">this is box 3</div>
+        <div class="box">this is box 4</div>
+        <div class="box">this is box 5</div>
+        <div class="box">this is box 6</div>
+        <div class="box">this is box 7</div>
+        <div class="box">this is box 8</div>
+        <div class="box">this is box 9</div>
+        <div class="box">this is box 10</div>
+        <div class="box">this is box 11</div>
+        <div class="box">this is box 12</div>
+        <div class="box">this is box 13</div>
+        <div class="box">this is box 14</div>
+        <div class="box">this is box 15</div>
+        <div class="box">this is box 16</div>
+        <div class="box">this is box 17</div>
+        <div class="box">this is box 18</div>
+        <div class="box">this is box 19</div>
+        <div class="box">this is box 20</div>
+        <div class="box">this is box 21</div>
+    </div>
+</body>
+</html>
